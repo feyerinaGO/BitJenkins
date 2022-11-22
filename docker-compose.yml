@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  jenkins:
+    image: jenkins/jenkins:lts
+    ports:
+      - 8080:8080
+      - 50000:50000
+    container_name: jenkins
+    networks:
+      - tools
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./jenkins_data:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+
+networks:
+  tools:
+    driver: bridge

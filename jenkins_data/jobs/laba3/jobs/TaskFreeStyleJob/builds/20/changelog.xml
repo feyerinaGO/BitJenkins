@@ -1,0 +1,23 @@
+commit 9908fa8aef17b934ef7acbbe32d66d1a0f192609
+tree 39c038cb2f88c001f20f4d8c610caf4cc9d5e3fa
+parent 34b9af3ff6f11005b99bd92581f162e203c79924
+author Galiandina <108342736+feyerinaGO@users.noreply.github.com> 2022-11-22 22:07:05 +0300
+committer Galiandina <108342736+feyerinaGO@users.noreply.github.com> 2022-11-22 22:07:05 +0300
+
+    Add manifest
+
+
+:100644 100644 8f8bd1f1733130a6ea44bd63a3051a60eba1b36d 5a18339fc3ed5c076919b702f437fa325638b683 M	manifest.mf
+commit 34b9af3ff6f11005b99bd92581f162e203c79924
+tree fa65c7288e534a50fe95bdc4fa8a7faa403355b8
+parent a58eec822a5c86182e8404e311b5ef9b4b5701fa
+author Galiandina <108342736+feyerinaGO@users.noreply.github.com> 2022-11-22 22:06:44 +0300
+committer Galiandina <108342736+feyerinaGO@users.noreply.github.com> 2022-11-22 22:06:44 +0300
+
+    Add manifest
+
+
+:100644 100644 f3197c83f4b47bf764e384e1ebe18eb176deadbf 512928ff7efee459b9c8a7e6e95d0c51d1892864 M	.idea/workspace.xml
+:100644 100644 171a8a9b4165f321c3b4b7e72a0c3c59f5858612 40f03570541d8008e05b56149f258861ab0a0c5e M	Dockerfile
+:000000 100644 0000000000000000000000000000000000000000 8f8bd1f1733130a6ea44bd63a3051a60eba1b36d A	manifest.mf
+:100644 100644 b3964bb1060666be3500d41f5f6dc344e33f53e9 821c2135eeefa0d2bdbbfc089e6c91a3dfee1d17 M	src/main/java/Main.java

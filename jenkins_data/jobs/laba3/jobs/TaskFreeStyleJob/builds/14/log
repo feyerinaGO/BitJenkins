@@ -1,0 +1,75 @@
+Started by user [8mha:////4CeqH3ZsrJ7v4UWKC5CMaANwC442c812jsTne0YZg16nAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgY+/dLi1CL9tNTKVKABiQDobXLzwwAAAA==[0mGalyandina
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/laba3/TaskFreeStyleJob
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/laba3/TaskFreeStyleJob/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/feyerinaGO/BitLaba3.git # timeout=10
+Fetching upstream changes from https://github.com/feyerinaGO/BitLaba3.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/feyerinaGO/BitLaba3.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision a58eec822a5c86182e8404e311b5ef9b4b5701fa (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a58eec822a5c86182e8404e311b5ef9b4b5701fa # timeout=10
+Commit message: "Add dockerfile"
+ > git rev-list --no-walk 03bc4058c011264af5cafbad54be6068cf75723a # timeout=10
+[TaskFreeStyleJob] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven_3.8.6/bin/mvn clean test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< org.example:BitLaba3 >------------------------
+[INFO] Building Archetype - BitLaba3 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4PgqS5CtVfthiDCTHdj8ekBDbvFoFFTgYxK/g5QBCMUgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ BitLaba3 ---
+[INFO] Deleting /var/jenkins_home/workspace/laba3/TaskFreeStyleJob/target
+[INFO] 
+[8mha:////4PgqS5CtVfthiDCTHdj8ekBDbvFoFFTgYxK/g5QBCMUgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ BitLaba3 ---
+[8mha:////4H0kCu7JRBbCtC/XKDcGk1U0HiNNIRaimQkJYObSj2VHAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 4 resources
+[INFO] 
+[8mha:////4PgqS5CtVfthiDCTHdj8ekBDbvFoFFTgYxK/g5QBCMUgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ BitLaba3 ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4H0kCu7JRBbCtC/XKDcGk1U0HiNNIRaimQkJYObSj2VHAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/jenkins_home/workspace/laba3/TaskFreeStyleJob/target/classes
+[INFO] 
+[8mha:////4PgqS5CtVfthiDCTHdj8ekBDbvFoFFTgYxK/g5QBCMUgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ BitLaba3 ---
+[8mha:////4H0kCu7JRBbCtC/XKDcGk1U0HiNNIRaimQkJYObSj2VHAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[8mha:////4PgqS5CtVfthiDCTHdj8ekBDbvFoFFTgYxK/g5QBCMUgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ BitLaba3 ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4H0kCu7JRBbCtC/XKDcGk1U0HiNNIRaimQkJYObSj2VHAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/jenkins_home/workspace/laba3/TaskFreeStyleJob/target/test-classes
+[INFO] 
+[8mha:////4PgqS5CtVfthiDCTHdj8ekBDbvFoFFTgYxK/g5QBCMUgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ BitLaba3 ---
+[INFO] Surefire report directory: /var/jenkins_home/workspace/laba3/TaskFreeStyleJob/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Running MainTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.563 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.744 s
+[INFO] Finished at: 2022-11-22T17:05:42Z
+[INFO] ------------------------------------------------------------------------
+[TaskFreeStyleJob] $ /var/jenkins_home/tools/ru.yandex.qatools.allure.jenkins.tools.AllureCommandlineInstallation/Allure_2.20.1/bin/allure generate /var/jenkins_home/workspace/laba3/TaskFreeStyleJob/TARGET/ALLURE-RESULTS -c -o /var/jenkins_home/workspace/laba3/TaskFreeStyleJob/allure-report
+Report successfully generated to /var/jenkins_home/workspace/laba3/TaskFreeStyleJob/allure-report
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Triggering a new build of [8mha:////4LUvfuka2n5wKjcH6cOB4PQ7cQg0mH+91ee7rW5ovhu6AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgZ5/az8JKARSYnGYFZIYnF2QGZBKtD+VC8gHwCwxpee1AAAAA==[0mlaba3 » TaskPipelineJob
+Finished: SUCCESS

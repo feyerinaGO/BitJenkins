@@ -1,0 +1,112 @@
+Started by user [8mha:////4CeqH3ZsrJ7v4UWKC5CMaANwC442c812jsTne0YZg16nAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgY+/dLi1CL9tNTKVKABiQDobXLzwwAAAA==[0mGalyandina
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/laba3/TaskFreeStyleJob
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/laba3/TaskFreeStyleJob/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/feyerinaGO/BitLaba3.git # timeout=10
+Fetching upstream changes from https://github.com/feyerinaGO/BitLaba3.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/feyerinaGO/BitLaba3.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 9908fa8aef17b934ef7acbbe32d66d1a0f192609 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9908fa8aef17b934ef7acbbe32d66d1a0f192609 # timeout=10
+Commit message: "Add manifest"
+ > git rev-list --no-walk a58eec822a5c86182e8404e311b5ef9b4b5701fa # timeout=10
+[TaskFreeStyleJob] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven_3.8.6/bin/mvn clean test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< org.example:BitLaba3 >------------------------
+[INFO] Building Archetype - BitLaba3 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4PgqS5CtVfthiDCTHdj8ekBDbvFoFFTgYxK/g5QBCMUgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ BitLaba3 ---
+[INFO] Deleting /var/jenkins_home/workspace/laba3/TaskFreeStyleJob/target
+[INFO] 
+[8mha:////4PgqS5CtVfthiDCTHdj8ekBDbvFoFFTgYxK/g5QBCMUgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ BitLaba3 ---
+[8mha:////4H0kCu7JRBbCtC/XKDcGk1U0HiNNIRaimQkJYObSj2VHAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 4 resources
+[INFO] 
+[8mha:////4PgqS5CtVfthiDCTHdj8ekBDbvFoFFTgYxK/g5QBCMUgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ BitLaba3 ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4H0kCu7JRBbCtC/XKDcGk1U0HiNNIRaimQkJYObSj2VHAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/jenkins_home/workspace/laba3/TaskFreeStyleJob/target/classes
+[INFO] 
+[8mha:////4PgqS5CtVfthiDCTHdj8ekBDbvFoFFTgYxK/g5QBCMUgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ BitLaba3 ---
+[8mha:////4H0kCu7JRBbCtC/XKDcGk1U0HiNNIRaimQkJYObSj2VHAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[8mha:////4PgqS5CtVfthiDCTHdj8ekBDbvFoFFTgYxK/g5QBCMUgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ BitLaba3 ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4H0kCu7JRBbCtC/XKDcGk1U0HiNNIRaimQkJYObSj2VHAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/jenkins_home/workspace/laba3/TaskFreeStyleJob/target/test-classes
+[INFO] 
+[8mha:////4PgqS5CtVfthiDCTHdj8ekBDbvFoFFTgYxK/g5QBCMUgAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ BitLaba3 ---
+[INFO] Surefire report directory: /var/jenkins_home/workspace/laba3/TaskFreeStyleJob/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Running MainTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.59 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.545 s
+[INFO] Finished at: 2022-11-22T19:09:09Z
+[INFO] ------------------------------------------------------------------------
+ERROR: Build step failed with exception
+java.lang.RuntimeException: Could not find the cloud this project was built on
+	at com.nirima.jenkins.plugins.docker.builder.DockerBuilderPublisher.getDockerAPI(DockerBuilderPublisher.java:290)
+	at com.nirima.jenkins.plugins.docker.builder.DockerBuilderPublisher.perform(DockerBuilderPublisher.java:486)
+	at jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:123)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:80)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:816)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:524)
+	at hudson.model.Run.execute(Run.java:1899)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:107)
+	at hudson.model.Executor.run(Executor.java:449)
+Build step 'Build / Publish Docker Image' marked build as failure
+ERROR: Step ‘Allure Report’ aborted due to exception: 
+java.nio.file.NoSuchFileException: /var/jenkins_home/workspace/laba3/TaskFreeStyleJob/TARGET/ALLURE-RESULTS/testrun.json
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:220)
+	at java.base/java.nio.file.Files.newBufferedWriter(Files.java:2920)
+	at ru.yandex.qatools.allure.jenkins.callables.AbstractAddInfo.invoke(AbstractAddInfo.java:26)
+	at ru.yandex.qatools.allure.jenkins.callables.AbstractAddInfo.invoke(AbstractAddInfo.java:19)
+	at hudson.FilePath.act(FilePath.java:1192)
+	at hudson.FilePath.act(FilePath.java:1175)
+	at ru.yandex.qatools.allure.jenkins.AllureReportPublisher.addTestRunInfo(AllureReportPublisher.java:399)
+	at ru.yandex.qatools.allure.jenkins.AllureReportPublisher.prepareResults(AllureReportPublisher.java:390)
+	at ru.yandex.qatools.allure.jenkins.AllureReportPublisher.perform(AllureReportPublisher.java:230)
+	at jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:123)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:80)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:816)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:765)
+	at hudson.model.Build$BuildExecution.post2(Build.java:179)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:709)
+	at hudson.model.Run.execute(Run.java:1924)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:107)
+	at hudson.model.Executor.run(Executor.java:449)
+Finished: FAILURE
